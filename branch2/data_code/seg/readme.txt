@@ -1,0 +1,10 @@
+copy_test.py:
+	这个程序主要生成test图片，用于seg的测试
+crop_all.sh:
+	多进程生成croped图像
+crop_imgs1.py:
+	生成croped图像
+get_mask1.py:
+	生成‘/home/wangya/wine/data_augment/data/test/’文件夹下测试图像的masks
+model_pascal/:
+	生成mask的FCN网络
